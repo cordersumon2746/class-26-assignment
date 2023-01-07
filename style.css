@@ -1,0 +1,166 @@
+
+
+/* first-section */
+.first-content h6{
+    color: blueviolet;
+    font-size: 20px;
+}
+.first-content h2{
+   font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.first-content h2::after{
+    content: "";
+    position: absolute;
+    bottom: -23px;
+    left: 0;
+    width: 70px;
+    height: 3px;
+    background: blue;
+}
+
+.first-icon{
+    display: flex;
+    flex-wrap: wrap;
+     margin-left: 41px;
+}
+
+.icon1{
+    background: #fff;
+    width: 200px;
+    height: 170px;
+    line-height: 170px;
+    box-shadow: 0px 0px 4px black;
+    transition: .5s;
+    color: gray;
+}
+
+.h-icon{
+    background:#f6f9fc;
+    display: flex;
+}
+
+
+.b2{
+    position: relative;
+}
+.b2::after{
+    content: "";
+    position: absolute;
+    bottom: -23px;
+    left: 720px !important;
+    width: 70px !important;
+    height: 3px;
+    background: blue;
+}
+
+/* card */
+.c-head{
+    font-size: 22px;
+    font-weight: 701;
+}
+
+.c-mini img{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: px;
+}
+
+.c-mini{
+    background: blue;
+    width: 145px;
+    border-radius: 20px;
+    padding: 5px 5px;
+    position: absolute;
+    top: 173px;
+    left: 198px;
+}
+.c-mini span{
+    color: #fff;
+}
+.card-img-top{
+    position: relative;
+}
+
+.card{
+    border: none !important;
+}
+.card-body{
+    padding-left: 0;
+    
+}
+
+.second-img{
+    justify-content: space-between;
+}
+
+/* footer-section */
+.footer-section{
+  background: #081828;
+  padding: 50px 0px;
+}
+
+.f1{
+width: 40%;
+color: #fff;
+}
+
+.f1 img{
+    width: 200px;
+}
+
+.f1-menu i{
+    margin-right: 15px;
+}
+
+/* f2 */
+.f2{
+    margin-right: 100px;
+}
+
+.f2 li{
+    margin-bottom: 15px;
+    list-style: none;
+   margin-left: -33px;
+}
+
+.f2 h3{
+    position: relative;
+}
+.f2 h3::before{
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 0px;
+    background: blue;
+    width: 2px;
+    height: 35px;
+}
+
+.main-f{
+    justify-content:space-around;
+}
+
+.container2{
+    width: 900px;
+   margin-left: 100px;
+}
+
+.main-f{
+    position: relative;
+    padding: 80px 0px;
+}
+
+.main-f::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 27px;
+    background: #ddd;
+    height: 2px;
+    width: 89%;
+}
